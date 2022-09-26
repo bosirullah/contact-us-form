@@ -1,0 +1,90 @@
+body{
+    background: url(bck.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+form{
+    background-color: #f2f2f2;
+    padding: 18px;
+    border: 2px  lightgrey;
+    border-radius: 20px;
+    position: absolute;
+    width: 330px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /* Negative half of height. */
+    margin-left: -200px; /* Negative half of width. */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+h1{
+    margin-left: 60px;
+    font-family: 'Bungee Spice', cursive;
+}
+
+.heading p{
+    margin-left: 65px;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    color: grey
+}
+
+.inpt{
+    margin-left: 70px;
+}
+
+input[type="number"],input[type="email"]{
+    padding: 15px ;
+    width: 260px;
+    margin-left: -55px;
+    border: none;
+    margin-top: 2px;
+}
+
+#fname{
+    padding: 15px;
+    margin-left: -55px;
+    border: none;
+}
+
+#lname{
+    padding: 15px;
+    border: none;
+}
+
+.btn button{
+    margin-left: 15px;
+    background-color: #4CAF50;
+    border: none;
+    padding: 15px 32px;
+    width: 298px;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 7px;
+}
+
+.btn p{
+    margin-left: 15px;
+    color: grey
+}
+
+/* .container{
+    margin-right: 10px;
+} */
+
+button:hover{
+    cursor: pointer;
+    background-color: green;
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
